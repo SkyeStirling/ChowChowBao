@@ -1,0 +1,78 @@
+body {
+	font-family: 'Jua', sans-serif;
+	text-align: center;
+	background-color: blue;
+	width: 100%;
+	background-color:#f7da36;
+}
+
+img {
+	display:block;
+	margin: 50px 0 0 0;
+	transition: all ease 0.5s;
+	
+}
+
+#logo {
+	margin: 0 auto;
+}
+
+.foodContainer {
+	display: flex;
+	/*background-color: blue;*/
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	color: #f7da36;
+	transition: all ease 0.7s;
+}
+
+.foodContainer h3 {
+	/*background-color: yellow;*/
+	font-size: 15em;
+	padding-right: 5%;
+}
+
+.foodContainer:hover {
+	color: white;
+}
+
+.foodContainer img {
+	/*background-color: black;*/
+	padding-right: 800px;
+}
+
+#bun:hover, #melon:hover, #mango:hover, #pineapple:hover, #dragonfruit:hover, #sauce:hover {
+padding-left: 5%;
+cursor: pointer;
+}
+
+/*#bun:hover {
+top:000px;
+cursor: pointer;
+}
+
+#melon:hover {
+top:000px;
+cursor: pointer;
+}
+
+#mango:hover {
+top:000px;
+cursor: pointer;
+}
+
+#pineapple:hover {
+top:000px;
+cursor: pointer;
+}
+
+#dragonfruit:hover {
+top:000px;
+cursor: pointer;
+}
+
+#sauce:hover {
+top:000px;	
+cursor: pointer;
+}*/
